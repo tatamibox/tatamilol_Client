@@ -1,0 +1,103 @@
+.userCard__container {
+    background-color: #edf2f4;
+    min-height: 20rem;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+    width: 85%;
+    justify-content: center;
+}
+
+.userCard__container img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.summonerInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.loader {
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+.loader__holder {
+    margin-top: -1rem;
+}
+
+@media only screen and (min-width: 820px) {
+    .loader {
+        position: relative;
+        top: 12px;
+        left: 10px;
+    }
+
+    .loader__holder {
+        margin-top: 0.2rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .loader__holder {
+        margin-top: -0.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .loader {
+        position: relative;
+        top: auto;
+        left: 10px;
+    }
+}
+
+.summoner__rank {
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+@media only screen and (min-width: 480px) {
+    .userCard__container {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .userCard__container {
+        width: 100%;
+        height: fit-content;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .userCard__container {
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .userCard__container {
+        flex-direction: row;
+        max-height: 23rem;
+        text-align: center;
+    }
+}
