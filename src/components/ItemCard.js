@@ -7,7 +7,7 @@ function ItemCard({ item, id }) {
             <section className={styles.card__container}>
                 {item && id &&
                     <>
-                        <img className={styles.card__image} src={`https://ddragon.leagueoflegends.com/cdn/12.13.1/img/item/${id}.png`}></img>
+                        <img className={styles.card__image} src={`https://ddragon.leagueoflegends.com/cdn/13.9.1/img/item/${id}.png`}></img>
                         <h4 className={styles.item__name}>{item.name}</h4>
                         <h5 className={styles.item__price}>{item.gold.total}<img src={gold} className={styles.gold__image}></img></h5>
                         <p className={styles.item__plaintext}>{item.plaintext ? item.plaintext : 'Riot did not provide a description. :('}</p>

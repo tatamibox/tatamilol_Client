@@ -33,7 +33,7 @@ function CgMode() {
             </div>
             {currentChamp &&
                 <>
-                    <img src={`https://ddragon.leagueoflegends.com/cdn/12.13.1/img/champion/${currentChamp}.png`}></img>
+                    <img src={`https://ddragon.leagueoflegends.com/cdn/13.9.1/img/champion/${currentChamp}.png`}></img>
                 </>
             }
             <button onClick={() => rollChampion(role)} className='btn btn-light' >Roll</button>
